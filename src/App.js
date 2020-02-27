@@ -47,6 +47,7 @@ const App = () => {
   return (
     <Container>
       <Banner title={ schedule.title } />
+	<div> courses</div>
       <CourseList courses={ schedule.courses } />
     </Container>
   );
